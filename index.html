@@ -5,18 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Jdubmiami Portfolio</title>
 </head>
 
 <body>
     <header>
+
+        <h1>
+            <a href="/">
+                JDUBmiami
+            </a>
+        </h1>
+        <!-- navigation tags - links to sections -->
         <nav>
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#work">Work</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
                     <a href="#contact-me">Contact Me</a>
@@ -24,29 +33,67 @@
             </ul>
         </nav>
     </header>
-
-    <!-- About Me section-->
+    <!-- container div for all sections below header -->
     <div>
-        <section>
-            <h2>
-                About Me
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque hic rem molestias expedita, est ex!
-                Deleniti error explicabo reiciendis quasi veritatis nam, cumque vero nesciunt quam expedita! Eum, non
-                ipsum?
-            </p>
+
+        <!-- About Me section-->
+
+        <section id="about-me">
+            <div class="flex-row">
+                <h2 class="section-title">
+                    About Me
+                </h2>
+                <div class="about-text">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque hic rem molestias expedita, est
+                        ex!
+                        Deleniti error explicabo reiciendis quasi veritatis nam, cumque vero nesciunt quam expedita!
+                        Eum,
+                        non
+                        ipsum?
+                    </p>
+                </div>
+            </div>
         </section>
 
 
-        <!-- Work section-->
-        <section>
+        <!-- Projects section - sections contains top 6 projects i want to showcase -->
 
+        <section id="projects">
+            <div class="flex-row">
+                <h2 class="section-title">
+                    My Projects
+                </h2>
+
+                <!-- This is the placeholder for the Premiere project -->
+                <div class="large-project">
+
+                    <img src="./assets/images/run-buddy.png" alt="Placehold for my premiere project" />
+
+                </div>
+                <!-- This is the section for all of my secondary projects that will be displayed on my portfolio page-->
+                <div class="small-project">
+                    <!-- <img class="small-image" src="./assets/images/project-placeholder 612x612.jpg" alt="Placehold for my premiere project" />
+
+                    <img class="small-image" src="./assets/images/project-placeholder 612x612.jpg" alt="Placehold for my secondary project" />
+
+                    <img class="small-image" src="./assets/images/project-placeholder 612x612.jpg" alt="Placehold for my secondary project" />
+
+                    <img class="small-image" src="./assets/images/project-placeholder 612x612.jpg" alt="Placehold for my secondary project" /> -->
+                </div>
+            </div>
         </section>
 
         <!-- Contact Me section-->
-        <section>
-
+        <section id="contact-me">
+            <div class="flex-row">
+                <h2 class="section-title">
+                    Contact Me
+                </h2>
+                <span>Phone Number: 555-555-5555</span>
+                <span>Email: djlilluigi@gmail.com</span>
+                <span>address: 1111 Broadway St. </span>
+            </div>
         </section>
     </div>
 </body>
